@@ -1,0 +1,1 @@
+Type guards that I commonly use

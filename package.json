@@ -1,0 +1,22 @@
+{
+  "name": "@austinburns/type-guards",
+  "version": "1.0.1",
+  "author": "Austin Burns <austin.c.burns@gmail.com>",
+  "description": "Type guards that I commonly use",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinBurns/type-guards.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AustinBurns/type-guards/issues"
+  },
+  "homepage": "https://github.com/AustinBurns/type-guards#readme",
+  "devDependencies": {
+    "@austinburns/type-utils": "^1.0.0"
+  }
+}
