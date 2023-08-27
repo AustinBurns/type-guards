@@ -1,11 +1,11 @@
 {
   "name": "@austinburns/type-guards",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Austin Burns <austin.c.burns@gmail.com>",
   "description": "Type guards that I commonly use",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "yarn jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/AustinBurns/type-guards#readme",
   "devDependencies": {
-    "@austinburns/type-utils": "^1.0.0"
-  }
+    "@austinburns/type-utils": "^1.0.0",
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.4",
+    "prettier": "^3.0.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {}
 }
