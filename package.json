@@ -1,6 +1,6 @@
 {
   "name": "@austinburns/type-guards",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Austin Burns <austin.c.burns@gmail.com>",
   "description": "Type guards that I commonly use",
   "main": "index.ts",

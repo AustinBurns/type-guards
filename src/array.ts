@@ -1,6 +1,4 @@
-import { Nilable, UnknownRecord } from '@austinburns/type-utils';
-
-export type NonEmptyArray<T> = [T, ...T[]];
+import { Nilable, NonEmptyArray, UnknownRecord } from '@austinburns/type-utils';
 
 export const isArray = (x: unknown): x is unknown[] => x instanceof Array;
 
