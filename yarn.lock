@@ -11,9 +11,11 @@
     "@jridgewell/trace-mapping" "^0.3.9"
 
 "@austinburns/type-utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@austinburns/type-utils/-/type-utils-1.0.0.tgz#9866d523cba6633f9cd00949940e9e2a3a1a6038"
-  integrity sha512-B0IV9LGBn9xoLCN/RciFT18xkAqeJNc4G7+fjqO2BqjZ5WV8sT6656nBRl2wjHANNCiiKlJDlT0D6D4rrCGGSQ==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@austinburns/type-utils/-/type-utils-1.0.1.tgz#dc64fc0aa86941e6bf20db8b00d504634ef3f4dc"
+  integrity sha512-yIuegOdcjDCSZffFuTyyFBecrQzgpiTI8f7OQEDdLxzAe8ModmvymDkBftw+4LJtDnhph7y3S55QB1HmBD8HgQ==
+  dependencies:
+    type-fest "^4.3.1"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.22.10", "@babel/code-frame@^7.22.5":
   version "7.22.10"
@@ -1848,9 +1850,9 @@ pkg-dir@^4.2.0:
     find-up "^4.0.0"
 
 prettier@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.2.tgz#78fcecd6d870551aa5547437cdae39d4701dca5b"
-  integrity sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
+  integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
 
 pretty-format@^29.0.0, pretty-format@^29.6.3:
   version "29.6.3"
@@ -2088,6 +2090,11 @@ type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
+
+type-fest@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.3.1.tgz#5cb58cdab5120f7ab0b40cfdc35073fb9adb651d"
+  integrity sha512-pphNW/msgOUSkJbH58x8sqpq8uQj6b0ZKGxEsLKMUnGorRcDjrUaLS+39+/ub41JNTwrrMyJcUB8+YZs3mbwqw==
 
 typescript@^5.2.2:
   version "5.2.2"
